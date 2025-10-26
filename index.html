@@ -1,70 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Weissman Tutors — High School Tutor in the Five Towns</title>
-  <meta name="description" content="Private high school tutoring in the Five Towns. AP teacher with 4+ years of tutoring experience. Regents/AP prep, study skills, and confidence-building. $120/hr." />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weissman Tutors — High School Tutor in the Five Towns</title>
+    <meta name="description" content="Private high school tutoring in the Five Towns. AP teacher with 4+ years of tutoring experience. Regents/AP prep, study skills, and confidence-building. $120/hr.">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <body>
+    <a href="#home" class="skip">Skip to main content</a>
 
-  <!-- Header / Sticky Nav -->
-  <header>
-    <div class="container nav" role="navigation" aria-label="Primary">
-      <div class="brand">Weissman Tutors</div>
-      <div class="spacer" aria-hidden="true"></div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#students">Students We Serve</a></li>
-          <li><a href="#why-us">Why Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!-- Header / Sticky Nav -->
+<header>
+  <div class="nav">
+    <a class="brand" href="#home" aria-label="Weissman Tutors Home">
+      <img src="logoweissmanjp.jpg" alt="Weissman Tutors logo" class="logo">
+      <strong class="wordmark">Weissman Tutors</strong>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#students">Students We Serve</a>
+      <a href="#why">Why Us</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#services">Services</a>
+      <a href="#cases">Cases</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#expectations">Expectations</a>
+      <a href="#fit">Fit</a>
+      <a href="#policies">Policies</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <main id="main">
-    <!-- Hero -->
-    <section id="home" class="hero" aria-labelledby="hero-title">
-      <div class="container">
-        <h1 id="hero-title">Weissman Tutors — Private Tutoring for High School Students</h1>
-        <p class="subhead">Personalized, one-on-one instruction that builds mastery, confidence, and academic independence.</p>
-        <p class="note">Serving students throughout the Five Towns.</p>
+
+    <!-- 1. Hero -->
+    <main id="home" class="hero">
+      <div class="wrap">
+        <span class="chip">Serving students throughout the Five Towns</span>
+        <h1>Weissman Tutors — Private Tutoring for High School Students</h1>
+        <p class="lead">
+          Personalized, one-on-one instruction that builds mastery, confidence,
+          and academic independence.
+        </p>
+        <a class="cta" href="#contact">Book a Free Intro Call</a>
+      </div>
+    </main>
+
+    <!-- 2. Who We Work With -->
+    <section id="students" class="section">
+      <div class="wrap">
+        <h2>Who We Work With</h2>
         <p>
-          <a class="btn" href="#contact">Book a Free Intro Call</a>
+          We work with high school students who want to strengthen their skills,
+          keep up with coursework, or prepare for major exams. We support a wide
+          range of learners — from students who need extra reinforcement to
+          high-achieving students looking to level up and excel.
         </p>
       </div>
     </section>
 
-    <!-- Who We Work With -->
-    <section id="students" class="section alt" aria-labelledby="students-title">
-      <div class="container">
-        <h2 id="students-title">Who We Work With</h2>
-        <p class="lead">We work with high school students who want to strengthen their skills, keep up with coursework, or prepare for major exams. We support a wide range of learners — from students who need extra reinforcement to high-achieving students looking to level up and excel.</p>
-      </div>
-    </section>
-
-    <!-- Why Families Choose Weissman Tutors -->
-    <section id="why-us" class="section" aria-labelledby="why-title">
-      <div class="container cols two">
-        <div>
-          <h2 id="why-title">Why Families Choose Weissman Tutors</h2>
-          <p class="lead">As a current AP high school teacher with more than four years of professional tutoring experience, I understand what actually leads to success in the classroom — not just memorization, but real comprehension and skill development.</p>
-        </div>
-        <div class="card">
-          <ul class="checklist">
+    <!-- 3. Why Families Choose -->
+    <section id="why" class="section alt">
+      <div class="wrap">
+        <h2>Why Families Choose Weissman Tutors</h2>
+        <p>
+          As a current AP high school teacher with more than four years of
+          professional tutoring experience, I understand what actually leads to
+          success in the classroom — not just memorization, but real
+          comprehension and skill development.
+        </p>
+        <div class="grid cols-2">
+          <ul class="clean card">
             <li>Sessions align with real classroom expectations and curriculum</li>
             <li>Strategies that build confidence and independence</li>
+          </ul>
+          <ul class="clean card">
             <li>Insight into what teachers and exam graders look for</li>
             <li>Classroom expertise with one-on-one personalization</li>
           </ul>
@@ -72,51 +88,125 @@
       </div>
     </section>
 
-    <!-- Subjects & Services -->
-    <section id="services" class="section alt" aria-labelledby="services-title">
-      <div class="container cols two">
-        <div>
-          <h2 id="services-title">Subjects &amp; Services</h2>
-          <p class="lead">We offer one-on-one tutoring (60 minutes or longer upon request), coursework support, exam prep, and skill-based coaching, including Regents and AP preparation, study skills, writing help, and academic organization.</p>
-        </div>
-        <div class="card">
-          <ul class="checklist">
-            <li>In-person anywhere in the Five Towns</li>
-            <li>Flexible scheduling — afternoons, evenings, and Sundays</li>
+    <!-- 4. Credentials & Experience -->
+    <section id="credentials" class="section">
+      <div class="wrap">
+        <h2>Credentials &amp; Experience</h2>
+        <div class="grid cols-2">
+          <ul class="clean card">
+            <li>Degree in <strong>Advanced Accounting</strong> from <strong>Queens College</strong></li>
+            <li>Current AP teacher at <strong>Yeshiva Darchei Torah</strong> (AP U.S. History)</li>
+            <li><strong>4+ years</strong> of professional one-on-one tutoring</li>
+          </ul>
+          <ul class="clean card">
+            <li>Regents, AP, and honors-level coursework support</li>
+            <li>Fingerprint-cleared and background-checked through school employment</li>
+            <li>Track record of improvement (e.g., Algebra I: <strong>62 → 88</strong> in one semester)</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section" aria-labelledby="about-title">
-      <div class="container">
-        <h2 id="about-title">About</h2>
-        <p class="lead">I’m Eli Weissman, a high school AP teacher and private tutor serving the Five Towns. I’ve worked with students for over four years, helping them grow not only academically but also in confidence, independence, and self-advocacy. My approach is calm, structured, and personalized — every student learns differently, so every session is tailored to their needs.</p>
+    <!-- 5. Teaching Philosophy -->
+    <section id="philosophy" class="section alt">
+      <div class="wrap">
+        <h2>Teaching Philosophy</h2>
+        <p>
+          I believe students learn best when instruction is calm, structured, and
+          personalized to the way they think. My sessions focus on clarity and
+          strategy, not just memorizing steps. I teach students the “why” behind
+          problems so they can apply skills independently in class and on exams.
+        </p>
+        <div class="grid cols-2">
+          <ul class="clean card">
+            <li>Real AP classroom experience and grading insight</li>
+            <li>Skill-building that creates independence, not dependency</li>
+          </ul>
+          <ul class="clean card">
+            <li>Each session ends with a clear, actionable takeaway</li>
+            <li>Strategies: modeling, retrieval, guided practice, checklists</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 6. Subjects & Services -->
+    <section id="services" class="section">
+      <div class="wrap">
+        <h2>Subjects &amp; Services</h2>
+        <p>
+          We offer one-on-one tutoring (60 minutes or longer upon request),
+          coursework support, exam prep, and skill-based coaching, including
+          Regents and AP preparation, study skills, writing help, and academic
+          organization.
+        </p>
+        <div class="grid cols-2">
+          <div class="card">
+            <strong>Grade levels:</strong> High school only (9–12)<br>
+            <strong>Regents:</strong> Algebra I, Geometry, Algebra II, Chemistry<br>
+            <strong>AP:</strong> AP U.S. History (APUSH)
+          </div>
+          <div class="card">
+            <strong>Format:</strong> In-person (Five Towns) or remote (available as needed)<br>
+            <strong>Materials:</strong> Custom review sheets, guided problem sets,
+            rubrics &amp; checklists, targeted exam strategies, structured
+            study plans
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Pricing -->
-    <section id="pricing" class="section alt" aria-labelledby="pricing-title">
-      <div class="container cols two">
-        <div>
-          <h2 id="pricing-title">Pricing</h2>
-          <p class="lead"><strong>$120 per hour</strong></p>
+    <!-- 7. Success Stories -->
+    <section id="cases" class="section alt">
+      <div class="wrap">
+        <h2>Success Stories</h2>
+        <div class="grid cols-3">
+          <div class="card">
+            <h3 class="muted" style="margin-bottom:6px;">Student A — 9th Grade (Algebra I)</h3>
+            <p>
+              Started at 62 and lacked confidence. We focused on fundamentals
+              and test strategies. By semester’s end, he earned an
+              <strong>88 on the final</strong> and participates confidently in class.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="muted" style="margin-bottom:6px;">Student B — 11th Grade (APUSH)</h3>
+            <p>
+              Struggled with LEQs/DBQs. We built argument structure and evidence
+              integration. She moved from low 3s to high 4s and earned a
+              <strong>5 on the AP Exam</strong>.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="muted" style="margin-bottom:6px;">Student C — 10th Grade (Chemistry)</h3>
+            <p>
+              Issues applying formulas and units. After 8 weeks of targeted
+              practice, she improved from failing quizzes to
+              <strong>90%+ on the midterm</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Pricing -->
+    <section id="pricing" class="section">
+      <div class="wrap">
+        <h2>Pricing</h2>
+        <div class="card">
+          <div class="price">
+            $120 <span class="muted" style="font-weight:600;">per hour</span>
+          </div>
           <p>Sessions may be extended beyond 60 minutes.</p>
-          <p>Free consultation for new families.</p>
+          <p class="pill">Free consultation for new families</p>
           <p>I will drive anywhere in the Five Towns.</p>
         </div>
-        <div class="card">
-          <p><strong>Transparent &amp; Simple</strong></p>
-          <p>No packages required — pay per session. We’ll align on goals and cadence during your free intro call.</p>
-        </div>
       </div>
     </section>
 
-    <!-- How It Works -->
-    <section id="process" class="section" aria-labelledby="process-title">
-      <div class="container">
-        <h2 id="process-title">How It Works</h2>
+    <!-- 9. How It Works -->
+    <section id="process" class="section alt">
+      <div class="wrap">
+        <h2>How It Works</h2>
         <ol class="steps">
           <li><strong>Intro Call</strong> — We discuss goals, challenges, and subject areas.</li>
           <li><strong>Personalized Plan</strong> — A learning strategy tailored to the student.</li>
@@ -126,55 +216,148 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials" class="section alt" aria-labelledby="testimonials-title">
-      <div class="container cols two">
-        <div>
-          <h2 id="testimonials-title">Testimonials</h2>
-          <p class="lead">Real feedback from families we’ve supported.</p>
+    <!-- 10. FAQ -->
+    <section id="faq" class="section">
+      <div class="wrap">
+        <h2>FAQ</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <p><strong>Do you offer remote tutoring?</strong><br>Yes — remote sessions are available as needed.</p>
+            <p><strong>Do you give practice between sessions?</strong><br>Yes, targeted review and short assignments to reinforce mastery.</p>
+            <p><strong>How do parents get updates?</strong><br>Parents can text me for quick progress updates anytime.</p>
+          </div>
+          <div class="card">
+            <p><strong>Do you work with IEPs/504s?</strong><br>Yes — I tailor pacing and strategies to student needs.</p>
+            <p><strong>Do you travel outside the Five Towns?</strong><br>No — in-person tutoring is limited to the Five Towns and nearby.</p>
+          </div>
         </div>
+      </div>
+    </section>
+    <!-- 11. Parent Expectations -->
+    <section id="expectations" class="section alt">
+      <div class="wrap">
+        <h2>Parent Expectations</h2>
         <div class="card">
-          <p>“My son went from struggling in Algebra to scoring an 87 on the Regents — he finally understands it.”</p>
-          <hr style="border:0;border-top:1px solid var(--border); margin: 14px 0;">
-          <p>“Eli’s calm, structured approach built my daughter’s confidence and study habits.”</p>
+          <ul class="clean">
+            <li>Quiet, distraction-free workspace and materials ready</li>
+            <li>Consistent weekly scheduling whenever possible</li>
+            <li>I don’t complete assignments for students — I teach them how to do it independently</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section" aria-labelledby="contact-title">
-      <div class="container cols two">
-        <div>
-          <h2 id="contact-title">Ready to get started?</h2>
-          <p class="lead">Service area: Five Towns and surrounding neighborhoods.</p>
-          <div class="contact-ways" aria-label="Contact options">
-            <a href="tel:15166684947" aria-label="Call 516-668-4947">📞 516-668-4947</a>
-            <a href="mailto:elisha1034@gmail.com" aria-label="Email elisha1034@gmail.com">✉️ elisha1034@gmail.com</a>
+    <!-- 12. Ideal Student Fit -->
+    <section id="fit" class="section">
+      <div class="wrap">
+        <h2>Ideal Student Fit</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <strong>Best fit:</strong>
+            <ul class="clean">
+              <li>Motivated students who want structure and clear next steps</li>
+              <li>Students who feel anxious about tests and want strategies</li>
+              <li>Capable learners who need help showing their understanding on exams</li>
+            </ul>
           </div>
-          <p style="margin-top:1rem;">
-            <a class="btn" href="#contact">Schedule a Free Consultation</a>
+          <div class="card">
+            <strong>Not a fit:</strong>
+            <ul class="clean">
+              <li>“Night-before” cramming-only with no ongoing plan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. Scheduling & Policies -->
+    <section id="policies" class="section alt">
+      <div class="wrap">
+        <h2>Scheduling &amp; Policies</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <p><strong>Availability:</strong> Weekday evenings &amp; Sundays</p>
+            <p><strong>Session length:</strong> 60 minutes (longer available by request)</p>
+            <p><strong>Consultation:</strong> Free 15-minute intro call for new families</p>
+          </div>
+          <div class="card">
+            <p><strong>Cancellation policy:</strong> 24-hour notice requested</p>
+            <p><strong>Payment:</strong> Zelle or cash at end of session</p>
+            <p><strong>Format:</strong> In-person (Five Towns) or remote as needed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="wrap">
+        <h2>Testimonials</h2>
+        <div class="grid cols-2">
+          <blockquote class="card">
+            “My son went from struggling in Algebra to scoring an 87 on the Regents — he finally understands it.”
+          </blockquote>
+          <blockquote class="card">
+            “Eli’s calm, structured approach built my daughter’s confidence and study habits.”
+          </blockquote>
+          <blockquote class="card">
+            “Eli connected with my son right away and broke things down in a way that finally made sense.”
+            — Parent of 9th grader
+          </blockquote>
+          <blockquote class="card">
+            “He doesn’t just teach the subject — he teaches how to study, organize, and feel confident.”
+            — Parent of 11th grader
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Contact -->
+    <section id="contact" class="section alt">
+      <div class="wrap">
+        <h2>Ready to get started?</h2>
+        <div class="contactbox">
+          <p><strong>Phone:</strong> <a href="tel:15166684947">516-668-4947</a></p>
+          <p><strong>Email:</strong> <a href="mailto:elisha1034@gmail.com">elisha1034@gmail.com</a></p>
+          <p><strong>Service area:</strong> Five Towns and surrounding neighborhoods</p>
+          <p style="margin-top:14px;">
+            <a class="btn-secondary"
+               href="mailto:elisha1034@gmail.com?subject=Free%20Consultation%20Request%20—%20Weissman%20Tutors">
+               Schedule a Free Consultation
+            </a>
           </p>
         </div>
-        <div class="card" aria-hidden="true">
-          <p><strong>What to expect</strong></p>
-          <p>We’ll respond promptly, set up an intro call, and map a plan that fits your student’s schedule and goals.</p>
-        </div>
       </div>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer role="contentinfo">
-    <div class="container" style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-      <div>© 2025 Weissman Tutors</div>
-      <div class="spacer" aria-hidden="true"></div>
-      <div class="quick" aria-label="Quick links">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
+    <!-- Footer -->
+    <footer>
+      <div class="wrap">
+        <div>
+          © 2025 Weissman Tutors •
+          <span class="muted">
+            Independent and not affiliated with any school district or test publisher.
+          </span>
+        </div>
+        <div class="footnav" aria-label="Quick links">
+          <a href="#home">Home</a> •
+          <a href="#students">Students We Serve</a> •
+          <a href="#why">Why Us</a> •
+          <a href="#credentials">Credentials</a> •
+          <a href="#philosophy">Philosophy</a> •
+          <a href="#services">Services</a> •
+          <a href="#cases">Cases</a> •
+          <a href="#pricing">Pricing</a> •
+          <a href="#process">Process</a> •
+          <a href="#faq">FAQ</a> •
+          <a href="#expectations">Expectations</a> •
+          <a href="#fit">Fit</a> •
+          <a href="#policies">Policies</a> •
+          <a href="#testimonials">Testimonials</a> •
+          <a href="#contact">Contact</a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+
+  </body>
 </html>
